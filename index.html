@@ -6,10 +6,10 @@
   </head>
   <body>
     <header class="main-header">
- 	  <div class="index-logo">
-        <img src="img/index-logo.png" alt="Нёрдс">
- 	  </div>
      <div class="container">
+ 	    <div class="header-logo">
+        <img src="header-logo.png" alt="Нёрдс">
+ 	    </div>
 	    <nav class="main-navigation">
        <ul>
 		    <li>
@@ -29,40 +29,54 @@
 			  <a href="#">Корзина</a>
 		   </div>
   		   <section class="slider">
+          <div>
            <h1 class="slider-title">Долго, дорого, скурпулезно</h1>
   		     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-  		     <a class="button" href="#">Узнать больше</a>
+  		     <a class="btn" href="#">Узнать больше</a>
            <img src="#" alt="Гаджеты">
+         </div>
+         <div>
+          <h1 class="slider-title">Любите ли вы математику, как любим ее мы?</h1>
+          <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возожность все просчитать</p>
+          <a class="btn" href="#">Узнать больше</a>
+          <img src="#" alt="Калькулятор">
+        </div>
+        <div>
+         <h1 class="slider-title">Только наркотики, только хардкор!</h1>
+         <p>Все дизайнерские решения в нашей компании принимаются только под возведением качественных галлюциноренов</p>
+         <a class="btn" href="#">Узнать больше</a>
+         <img src="#" alt="Робот">
+       </div>
   		   </section>
   	 </div>
     </header>
     <main class="container">
-      <section class="services">
+      <div class="container">
+       <section class="services">
         <div class="services-item">
           <img src="#">
-           <b class="services-name">Веб-сайты</b>
+           <p class="services-name">Веб-сайты</p>
            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-           <a class="button" href="#">Заказать</a>
+           <a class="btn-buy" href="#">Заказать</a>
         </div>
         <div class="services-item">
           <img src="#">
-           <b class="services-name">Приложения</b>
+           <p class="services-name">Приложения</p>
            <p>Покорите топ-10 приложенний в AppStrore и Google Play</p>
-           <a class="button" href="#">Заказать</a>
+           <a class="btn-buy" href="#">Заказать</a>
         </div>
         <div class="services-item">
           <img src="#">
-           <b class="services-name">Презентации</b>
+           <p class="services-name">Презентации</p>
            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-           <a class="button" href="#">Заказать</a>
+           <a class="btn-buy" href="#">Заказать</a>
         </div>
       </section>
-      <hr>
       <section class="description">
         <div class="description-left">
-         <h1 class="description-title-left">Мы - маленькая, но гордая дизайн-студия из Краснодара</h1>
+         <p class="description-title-left">Мы - маленькая, но гордая дизайн-студия из Краснодара</p>
          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-         <h2 class="description-title-left">Выполняем заказы на разработку:</h2>
+         <p class="description-title-left">Выполняем заказы на разработку:</p>
          <ul>
            <li>
              <p>Веб-сайтов любой сложности</p>
@@ -76,15 +90,13 @@
          </ul>
        </div>
         <div class="description-right">
-          <div class="index-logo">
-            <img src="#" alt="Нёрдс">
+          <div class="main-logo">
+            <img src="main-logo.png" alt="Нёрдс">
           </div>
-          <hr>
           <div>
             <p class="description-right">since 2004</p>
           </div>
-          <hr>
-          <h2 class="description-title-right">Как мы работаем:</h2>
+          <p class="description-title-right">Как мы работаем:</p>
           <ul>
             <li>
               <p>С самоотдачей 146%</p>
@@ -97,36 +109,34 @@
             </li>
        </div>
       </section>
-      <hr>
       <section class="project">
-        <div class="project-left">
-          <img src="#" alt="Glukhanko">
-        </div>
-        <div class="project-center">
-          <img src="#" alt="html academy">
-        </div>
-        <div class="project-right">
-          <img src="#" alt="Барбершоп «Бородинский»">
-        </div>
+        <img src="#" alt="Glukhanko">
+        <img src="#" alt="html academy">
+        <img src="#" alt="Барбершоп «Бородинский»">
       </section>
-      <hr>
+     </div>
     </main>
+    <div class="map">
+      <div class="address">
+        <h3 class="address-title">NЁRDS DESIGN STUDIO</h3>
+        <p class="address-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7(812) 275-75-75 Напишите нам</p>
+      </div>
+      <div class="logo-map">
+        <img src="logo-map" alt="Нёрдс">
+      </div>
+    </div>
     <footer class="main-footer">
-      <section class="map">
-        <img src="#" usemap="map" alt="Карта">
-        <map name="map">
-          <area href="#" shape="rect" coords="">
-        </map>
-      </section>
+     <div class="container">
       <section class="footer-social">
         <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
       </section>
       <section class="footer-cooperation">
-        <p><b>Давайте дружить</b></p>
+        <p>Давайте дружить</p>
         <p>Скидка 10% для друзей из социальных сетей</p>
       </section>
+     </div>
     </footer>
   </body>
 </html>
