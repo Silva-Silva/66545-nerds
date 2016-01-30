@@ -33,72 +33,120 @@
       </div>
     </div>
     </header>
-    <div class="container">
-      <aside class="content">
-       <div class="price">
+    <div class="catalog-content">
+      <div class="container">
+       <aside class="sidebar-catalog">
          <p>Стоимость</p>
          <div></div>
-       </div>
-       <div class="grid">
+         <label>
+           от<input type="text" name="zero" value="0">
+         </label>
+         <label>
+           до<input type="text" name="three-thousand" value="3000">
+         </label>
+        <div class="grid">
          <p>Сетка</p>
          <ul>
-           <li>Адаптивная
+           <li>
+             <label>
+               <input type="radio" name="grid" value="a" checked>
+               Адаптивная</label>
            </li>
-           <li>Фиксированная
+           <li>
+             <label>
+             <input type="radio" name="grid" value="b">
+             Фиксированная</label>
            </li>
-           <li>Резиновая
+           <li>
+             <label>
+               <input type="radio" name="grid" value="c">
+               Резиновая</label>
            </li>
          </ul>
-       </div>
+        </div>
        <div class="features">
          <p>Особенности</p>
          <ul>
-           <li>Слайдер
+           <li>
+             <label>
+               <input type="checkbox" name="slaider" checked>
+              Слайдер</label>
            </li>
-           <li>Блок преимуществ
+           <li>
+             <label>
+               <input type="checkbox" name="blog">
+             Блок преимуществ</label>
            </li>
-           <li>Новости
+           <li>
+             <label>
+               <input type="checkbox" name="news" checked>
+             Новости</label>
            </li>
-           <li>Галерея
+           <li>
+             <label>
+               <input type="checkbox" name="gallery">
+             Галерея</label>
            </li>
-           <li>Корзина
+           <li>
+             <label>
+               <input type="checkbox" name="basket">
+             Корзина</label>
            </li>
          </ul>
+         <a href="#">Показать</a>
        </div>
       </aside>
-      <div class="mеnu">
-       <p>Сортировать</p>
-        <menu class="sorting">
-         <ul>
-     		  <li>
-     			<a href="#">По цене</a>
-     			</li>
-     			<li>
-     			<a href="#">По типу</a>
-     			</li>
-     			<li>
-     			<a href="#">По функционалу</a>
-     			</li>
-         </ul>
+      <main class="main-catalog">
+       <div class="mеnu">
+        <p>Сортировать</p>
+         <menu class="sorting">
+          <ul>
+     		   <li>
+     			  <a href="#">По цене</a>
+     			 </li>
+     			 <li>
+     			  <a href="#">По типу</a>
+     			 </li>
+     			 <li>
+     			  <a href="#">По функционалу</a>
+     			 </li>
+          </ul>
+         <a herf="#"></a>
+         <a herf="#"></a>
         </menu>
       </div>
-      <main class="main-content">
-        <div class="container">
-          <div class="col-left">
+      <div class="col-left">
             <a href="#"><img src="#"></a>
             <a href="#"><img src="#"></a>
             <a href="#"><img src="#"></a>
-          </div>
-          <div class="col-right">
+        </div>
+       <div class="col-right">
             <a href="#"><img src="#"></a>
             <a href="#"><img src="#"></a>
             <a href="#"><img src="#"></a>
-          </div>
+        </div>
         </div>
       </main>
      </div>
+    </div>
+    <div class="container">
+      <ul class="paginator">
+        <li class="paginator-link">
+          <a href="#">1</a>
+        </li>
+        <li class="paginator-link">
+          <a href="#">2</a>
+        </li>
+        <li class="paginator-link">
+          <a href="#">3</a>
+        </li>
+        <li class="paginator-next">
+          <a href="#">Следующая</a>
+        </li>
+      </ul>
+    </div>
     <div class="map">
-    <div class="address">
+     <div class="address">
       <h3 class="address-title">NЁRDS DESIGN STUDIO</h3>
       <p class="address-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7(812) 275-75-75 Напишите нам</p>
     </div>
