@@ -1,0 +1,28 @@
+body {
+   font-family: Roboto Medium, Arial, sans-serif;
+   font-size: 16px;
+   color: #000000;
+   line-height: 22px;
+   font-weight: normal;
+   background: url("");
+}
+
+h1 {
+  font-family: Roboto Medium, Arial, sans-serif;
+  font-size: 40px;
+  color: #000000;
+  line-height: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+
+
+}
+
+.slider-title {
+  font-family: Roboto Medium, Arial, sans-serif;
+  font-size: 36px;
+  color: #000000;
+  line-height: 36px;
+  font-weight: normal;
+  text-transform: inherit;
+}
