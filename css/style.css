@@ -4,7 +4,7 @@ body {
    color: #000000;
    line-height: 22px;
    font-weight: normal;
-   background: url("");
+   background: #ffffff url("");
 }
 
 h1 {
@@ -14,8 +14,20 @@ h1 {
   line-height: normal;
   font-weight: normal;
   text-transform: uppercase;
+}
 
+h2 {
+  font-family: Roboto Medium, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
 
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
 .slider-title {
@@ -25,4 +37,158 @@ h1 {
   line-height: 36px;
   font-weight: normal;
   text-transform: inherit;
+}
+
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 880px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.header-logo {
+  float: left;
+  width: 140px;
+  height: 70px;
+
+}
+
+.main-navigation {
+  width: 560px;
+
+
+}
+
+.user-block {
+  float: right;
+  width: 100px;
+
+}
+
+.slider {
+  width: 880px;
+  height: 300px;
+}
+
+.slider-left {
+  float: left;
+  width: 400px;
+}
+
+.slider-right {
+  float: right;
+  width: 400px;
+}
+
+.services {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.services-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+
+}
+
+.services-item:last-child {
+  margin-right: 0;
+}
+
+.description {
+  margin-bottom: 90px;
+
+}
+
+.description-left {
+  float: left;
+  width: 590px;
+  min-height: 400px;
+}
+
+.description-right {
+  float: right;
+  width: 260px;
+  min-height: 400px;
+
+}
+
+.project {
+  width: 880px;
+  margin-bottom: 90px;
+}
+
+.project-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+
+.project-item:last-child {
+  margin-right: 0;
+}
+
+.sidebar-catalog {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+
+.main-catalog {
+  width: 560px;
+}
+
+.menu {
+  width: 560px;
+  height: 20px;
+}
+
+.col-left {
+  float: left;
+  margin-bottom: 20px;
+  width: 240px;
+  margin-right: 80px;
+
+}
+
+.col-right {
+  float: right;
+  margin-bottom: 20px;
+  width: 240px;
+
+}
+
+.paginator {
+  margin-bottom: 80px;
+}
+
+.map {
+  width: 1200px;
+  min-height: 418px;
+}
+
+.address {
+
+}
+
+.main-footer {
+  margin-top: 40px;
+
+}
+
+.footer-social {
+  float: left;
+  width: 240px;
+  margin-right: 60px;
+}
+
+.footer-cooperation {
+  float: right;
+  width: 570px;
+  padding:
 }
