@@ -4,9 +4,17 @@
   outline: 1px dotted grey;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 body {
-   font-family: Roboto Medium, Arial, sans-serif;
-   font-size: 16px;
+   font-family: "Roboto Medium", Arial, sans-serif;
+   font-size: 15px;
    color: #000000;
    line-height: 22px;
    font-weight: normal;
@@ -14,7 +22,7 @@ body {
 }
 
 h1 {
-  font-family: Roboto Medium, Arial, sans-serif;
+  font-family: "Roboto Medium", Arial, sans-serif;
   font-size: 40px;
   color: #000000;
   line-height: normal;
@@ -23,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto Medium, Arial, sans-serif;
+  font-family: "Roboto Medium", Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: #000000;
@@ -32,7 +40,6 @@ h2 {
 
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
@@ -42,7 +49,7 @@ h2 {
 }
 
 .container {
-  width: 900px;
+  width: 880px;
   margin: 0 auto;
   padding: 0px 10px;
 }
@@ -54,28 +61,39 @@ h2 {
 }
 
 .main-navigation {
-  width: 400px;
   margin-left: 170px;
-
-}
-
-.user-block {
+  font-size: 0;
   float: right;
-  width: 100px;
-
 }
 
-.slider {
-  width: 880px;
-  height: 300px;
-  background-image: url("img/Layer 29.png");
-  background-position: right;
+.main-navigation li {
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
 }
 
- .slider-left {
-   width: 380px;
-   height: 250px;
- }
+.top-bar {
+  margin-bottom: 80px;
+}
+
+.slider-item {
+  background: url("../img/slider-1.png") no-repeat 100% 0;
+}
+
+.slider-title {
+ width: 400px;
+ margin-bottom: 50px;
+}
+
+.slider-text {
+ width: 400px;
+ margin-bottom: 50px;
+ display: block;
+}
+
+.title {
+  width: 665px;
+}
 
 .services {
   margin-top: 80px;
@@ -93,9 +111,19 @@ h2 {
   margin-right: 0;
 }
 
+.services-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 30px;
+
+}
+
+.services-text {
+  min-height: 70px;
+}
+
 .description {
   margin-bottom: 90px;
-
 }
 
 .description-left {
@@ -107,8 +135,6 @@ h2 {
 .description-right {
   float: right;
   width: 240px;
-
-
 }
 
 .project {
@@ -130,44 +156,92 @@ h2 {
   float: left;
   width: 240px;
   margin-right: 80px;
+  margin-top: 80px;
+}
+
+.sidebar-catalog-title {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .main-catalog {
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+
+/*.menu {
   width: 560px;
 }
 
-.menu {
-  width: 560px;
-  height: 20px;
+.menu li {
+  display: inline-block;
+  list-style: none;
 }
+
+.menu-title {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.menu-text {
+  color:#666666;
+}*/
 
 .col-left {
   float: left;
-  margin-bottom: 20px;
+  margin-top: 80px;
   width: 240px;
   margin-right: 80px;
-
 }
 
 .col-right {
   float: right;
-  margin-bottom: 20px;
+  margin-top: 80px;
   width: 240px;
-
 }
 
 .paginator {
   margin-bottom: 80px;
 }
 
+.paginator-link {
+  display: inline-block;
+  list-style: none;
+}
+
+.paginator-next {
+  display: inline-block;
+  list-style: none;
+}
+
 .map {
-  width: 1200px;
   min-height: 418px;
+  background: url("../img/logo-map.png") no-repeat center center;
+  background-size: cover;
 }
 
 .address {
   width: 250px;
+  height: 240px;
+  background: #ffffff url("../img/address.png");
+}
 
+.address-text {
+  color: #666666;
+  line-height: 20px;
+}
+
+.address-bnt {
+  /*color: #000000;*/
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .main-footer {
