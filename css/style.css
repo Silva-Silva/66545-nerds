@@ -172,38 +172,49 @@ label {
 
 .main-catalog {
   margin-top: 80px;
-  margin-left: 80px;
+  margin-left: 320px;
   margin-bottom: 80px;
 }
 
-/*.menu {
+.menu {
   width: 560px;
 }
 
-.menu li {
-  display: inline-block;
-  list-style: none;
-}
-
 .menu-title {
-  font-size: 12px;
-  line-height: 18px;
+  width: 90px;
+  float: left;
+  margin-left: 40px;
 }
 
 .menu-text {
+  width: 435px;
+}
+/*.menu {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+*/
+/*.menu-text p {
+  float: left;
+
+}
+*/
+/*.menu-text a {
+  float: right;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
   color:#666666;
 }*/
 
 .col-left {
   float: left;
-  margin-top: 80px;
   width: 240px;
   margin-right: 80px;
 }
 
 .col-right {
   float: right;
-  margin-top: 80px;
   width: 240px;
 }
 
@@ -246,7 +257,6 @@ label {
 
 .main-footer {
   margin-top: 40px;
-
 }
 
 .footer-social {
@@ -257,6 +267,5 @@ label {
 
 .footer-cooperation {
   float: right;
-  width: 570px;
-  padding:
+  width: 550px;
 }
