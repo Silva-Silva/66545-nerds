@@ -57,7 +57,6 @@ h2 {
 .header-logo {
   float: left;
   width: 160px;
-
 }
 
 .main-navigation {
@@ -93,6 +92,7 @@ h2 {
 
 .title {
   width: 665px;
+
 }
 
 .services {
@@ -104,7 +104,6 @@ h2 {
   float: left;
   width: 240px;
   margin-right: 80px;
-
 }
 
 .services-item:last-child {
@@ -115,7 +114,6 @@ h2 {
   font-size: 18px;
   text-transform: uppercase;
   line-height: 30px;
-
 }
 
 .services-text {
@@ -156,7 +154,6 @@ h2 {
   float: left;
   width: 240px;
   margin-right: 80px;
-  margin-top: 80px;
 }
 
 .sidebar-catalog-title {
@@ -176,36 +173,24 @@ label {
   margin-bottom: 80px;
 }
 
-.menu {
-  width: 560px;
+.menu li {
+  display: inline-block;
+  list-style: none;
 }
 
 .menu-title {
-  width: 90px;
   float: left;
-  margin-left: 40px;
+  width: 90px;
+  margin-right: 35px;
+  font-size: 12px;
 }
 
 .menu-text {
-  width: 435px;
-}
-/*.menu {
-  margin-left: 80px;
-  margin-bottom: 20px;
-}
-*/
-/*.menu-text p {
   float: left;
-
-}
-*/
-/*.menu-text a {
-  float: right;
+  width: 60px;
+  margin-right: 35px;
   font-size: 12px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color:#666666;
-}*/
+}
 
 .col-left {
   float: left;
@@ -239,9 +224,11 @@ label {
 }
 
 .address {
+  float: left;
   width: 250px;
   height: 240px;
   background: #ffffff url("../img/address.png");
+  margin-top: 90px;
 }
 
 .address-text {
@@ -253,6 +240,21 @@ label {
   /*color: #000000;*/
   font-size: 12px;
   line-height: 18px;
+}
+
+.logo {
+  float: left;
+  margin-left: 425px;
+  margin-top: 110px;
+  width: 160px;
+  height: 200px;
+  background: url("../img/logo.png") no-repeat 3px 3px;
+}
+
+.img-logo {
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 35px;
 }
 
 .main-footer {
